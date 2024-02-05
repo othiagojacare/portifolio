@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(86deg, rgba(2,0,36,1) 0%, rgba(87,60,60,1) 77%);
+}
+
+.navbar{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-bottom: solid 1px #fff;
+}
+
+.navbar-section{
+    display: flex;
+    gap: 30px;
+    margin: 0px 100px 0 0;
+}
+
+.navbar-item{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60vh;
+    align-items: center;
+}
+
+#banner-section span{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#banner-frase{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#banner-autor{
+    margin-top: 10px;
+}
+
+#banner-id{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner-id span{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#banner-id_nome{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#sobre-titulo{
+    font-size: 50px;
+    color: #000;
+}
+
+.sobre{
+    background-color: #fff;
+    height: 100vh;
+    color: #000;
+    display: flex;
+    padding:0px 50px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+
+.sobre div{
+    display: flex;
+}
+
+.sobre img{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.sobre p{
+    display: flex;
+    color: #000;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.projetos{
+    height: 30vh;
+}
+
+.projetos-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 0 50px;
+    gap: 10px;
+}
+
+.projetos-grid_item{
+    width: 300px;
+    height: 200px;
+}
